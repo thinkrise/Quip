@@ -1,0 +1,161 @@
+/* Styles */
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f7f6f6;
+    font-family: "CircularPro-Bold", sans-serif;
+  }
+
+  .progress-bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgba(245,166,35,.5);
+  }
+
+  .progress-bar #points1, .progress-bar #points2 {
+    height: 5px;
+    background-color: #f5a623;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+  }
+
+  .progress-bar #points1 {
+    float: left;
+  }
+
+  .progress-bar #points2 {
+    float: right;
+  }
+
+  .status-bar {
+    height: 70px;
+    background-color: #50e3c2;
+  }
+
+  .status-bar .player1, .status-bar .player2 {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .status-bar .avatar {
+    border-radius: 50px;
+    vertical-align: middle;
+  }
+
+  .status-bar .player2 {
+    float: right;
+  }
+
+  .status-bar .score {
+    font-weight: bold;
+    color: white;
+    padding: 1em;
+  }
+
+  .content {
+    padding: 2em;
+  }
+
+  .question .text {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2em;
+  }
+
+  .question .picture {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .answers {
+    padding-top: 1.5em;
+  }
+
+  .answers button {
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
+    margin: .5em 0;
+    font-weight: bold;
+    color: #fff;
+    background: #f1b044;
+    border: 3px solid #f1c783;
+  }
+
+  .answers button:nth-of-type(2) {
+    background: #90d148;
+    border: 3px solid #b8e986;
+  }
+
+  .answers button:nth-of-type(3) {
+    background: #cf2137;
+    border: 3px solid #dc6573;
+  }
+
+  .answers button {
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
+    margin: .5em 0;
+    font-weight: bold;
+    color: #fff;
+    background: #f1b044;
+    border: 3px solid #f1c783;
+  }
+
+  .answers button:nth-of-type(2) {
+    background: #90d148;
+    border: 3px solid #b8e986;
+  }
+
+  .answers button:nth-of-type(3) {
+    background: #cf2137;
+    border: 3px solid #dc6573;
+  }
+
+  div#status {
+    background: #90d148;
+    color: #fff;
+    display: none;
+    margin: .5em 0;
+    padding: 1em;
+    width: 100%;
+  }
+
+  div#status.message {
+    display: block;
+  }
+
+  div#status.error {
+    background: #cf2137;
+    display: block;
+    margin: .5em 0;
+    padding: 1em;
+    width: 100%;
+  }
+
+  ul.topics {
+    text-align: center;
+  }
+
+  ul.topics li {
+     width: 144px;
+     min-height: 200px;
+     border: 0px solid #000;
+     display: -moz-inline-stack;
+     display: inline-block;
+     vertical-align: top;
+     margin: 5px;
+     zoom: 1;
+     *display: inline;
+     _height: 200px;
+  }
+
+  ul.topics li img {
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,23 @@
+header {
+  background-color: #41CBC5;
+  color: #ffffff;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+header h1 {
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+header nav {
+  display: hidden;
+  visibility: hidden;
+}
+
+header div {
+
+}

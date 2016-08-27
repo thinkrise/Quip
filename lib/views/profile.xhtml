@@ -1,0 +1,30 @@
+<div id="profile" class="content profile">
+  <img id="avatar" src="http://placehold.it/150x150?text=[avatar]" />
+  <p id="name" class="name">{{name}}{{^name}}Name{{/name}}</p>
+  <p id="location" class="location">{{location}}{{^location}}location{{/location}}</p>
+  <div class="buttons">
+    <button id="playButton">Play</button>
+    <button id="followButton">Follow</button>
+  </div>
+</div>
+<div class="stats">
+  <div class="numeric">
+    <p>Games</p>
+    <p id="profileGames" class="red">{{games}}{{^games}}0{{/games}}</p>
+  </div>
+  <div class="numeric">
+    <p>Followers</p>
+    <p id="profileFollowers" class="green">{{followers}}{{^followers}}0{{/followers}}</p>
+  </div>
+  <div class="numeric">
+    <p>Following</p>
+    <p id="profileFollowing" class="blue">{{following}}{{^following}}0{{/following}}</p>
+  </div>
+  <div class="progress">
+    <p id="progress" class="name">Progress</p>
+    <div class="bar">
+      <!-- Following divs are on a single line to prevent inline-block spacing -->
+      <div id="wins" class="value"></div><div id="draws" class="value"></div><div id="losses" class="value"></div>
+    </div>
+  </div>
+</div>

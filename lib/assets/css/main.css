@@ -1,0 +1,19 @@
+/*import "icons.css";
+import "general.css";
+import "utilities.css";
+import "main.css";
+import "footer.css";
+import "header.css";
+import "screen.css";
+import "mobile.css";
+import "animations.css";*/
+
+@import "fonts.css";
+@import "normalize.css";
+@import "base.css";
+@import "general.css";
+@import "profile.css";
+@import "header.css";
+@import "footer.css";
+@import "forms.css";
+@import "mobile.css";

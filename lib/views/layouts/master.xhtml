@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <title>{{title}}{{^title}}Quip{{/title}}</title>
+    <meta charset="UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="/resources/css/main.css" type="text/css" />
+    <!--link rel="apple-touch-icon" href="/images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-ipad-retina.png" /-->
+  </head>
+  <body class="{{bodyClass}}">
+  {{> spritesheet}}
+  {{#header}}
+  {{> header}}
+  {{/header}}
+  <div id="{{viewId}}{{^viewId}}quip{{/viewId}}" class="container">
+    {{{body}}}
+  </div>
+  {{#footer}}
+  {{> footer}}
+  {{/footer}}
+  </body>
+</html>

@@ -1,0 +1,27 @@
+* {
+  font-family: "CircularPro-Bold", sans-serif;
+}
+
+::-moz-selection,
+::selection {
+  background: #fe57a1; color: #fff; text-shadow: none;
+}
+
+body {
+  background: #E4E3E3 none repeat scroll 0% 0%;
+  color: #666;
+  font-family: "CircularPro-Bold", sans-serif;
+}
+
+a {
+  background: #f1b044;
+  border: 3px solid #f1c783;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 1em;
+  margin: .5em 0;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+}

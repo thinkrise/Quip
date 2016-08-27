@@ -1,0 +1,18 @@
+<div id="topics">
+  <p>Select a topic and challenge yourself and others!</p>
+  <ul class="topics">
+  {{#each topics}}
+    <li>
+      <div>
+        <h3>{{title}}</h3>
+        <a href="/play/{{identity}}">
+          <img src="{{image}}" alt="{{title}}" />
+        </a>
+      </div>
+    </li>
+  {{/each}}
+  </ul>
+</div>
+<div id="status">
+  <span id="status-text"></span>
+</div>

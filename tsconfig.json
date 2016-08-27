@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "target": "es6"
+    },
+    "exclude": [
+        "./node_modules/",
+        "./typings"
+    ],
+    "files": [
+        "./lib/routes/topics.ts",
+        "./lib/routes/profiles.ts",
+        "./lib/routes/play.ts",
+        "./lib/routes/login.ts",
+        "./lib/routes/index.ts",
+        "./lib/logging/index.ts",
+        "./lib/db/index.ts",
+        "./lib/server.ts",
+        "./index.ts"
+    ]
+}

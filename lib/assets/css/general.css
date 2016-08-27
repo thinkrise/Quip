@@ -1,0 +1,47 @@
+
+body.home {
+  background-color: #41CBC5;
+  text-align: center;
+}
+
+body.home h1 {
+  font-family: "CircularPro-Bold",sans-serif;
+  line-height: 8rem;
+  font-size: 4rem;
+}
+
+body.home div.container {
+  background-color: #41CBC5;
+  color: #fff;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+  min-width: 320px;
+  max-width: 500px;
+  width: 100%;
+}
+
+body.home p {
+  line-height: 2rem;
+}
+
+body.home img.stamp {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+}
+
+div#data {
+  display: none;
+  visibility: hidden;
+}
+
+div.container div#topics {
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+}

@@ -1,0 +1,13 @@
+{
+    "http": {
+        "port": 6011
+    },
+    "service": {
+        "host": "localhost",
+        "port": 6013
+    },
+    "auth": {
+        "identity": "hackmcr@thinkrise.com",
+        "secret": "Password1"
+    }
+}

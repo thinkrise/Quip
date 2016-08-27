@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "umd",
+        "noImplicitAny": false,
+        "outDir": "js",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "target": "es5"
+    },
+    "exclude": [
+    ],
+    "files": [
+        "./index.ts",
+        "./logging.ts",
+        "./socket.ts",
+        "./register.ts"
+    ]
+}

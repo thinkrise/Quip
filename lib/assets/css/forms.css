@@ -1,0 +1,109 @@
+/**
+* Login & registration forms.
+*/
+div#login, div#register, div#reset {
+  margin: 0em 1em;
+}
+
+form {
+
+}
+
+input {
+  min-height: 44px;
+}
+
+input[type="password"], input[type="text"], input[type="email"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 0.5em 0em;
+  overflow: auto;
+  padding: 0em 1em;
+  transition: box-shadow 0.3s;
+  width: 100%;
+}
+input[type="password"]:focus, input[type="text"]:focus, input[type="email"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+input[type="password"]:disabled, input[type="text"]:disabled, input[type="email"]:disabled {
+  color: #cccccc;
+}
+
+input:valid {
+  color: rgba(144, 209, 72, 1);
+}
+
+.show-password {
+  display: block;
+  height: 16px;
+  margin: 26px 0 0 28px;
+  width: 87px;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 16px;
+  opacity: 0;
+  position: relative;
+  width: 64px;
+}
+input[type="checkbox"]:checked {
+  left: 29px;
+  width: 58px;
+}
+.toggle {
+  background: url(http://i.minus.com/ibitS19pe8PVX6.png) no-repeat;
+  display: block;
+  height: 16px;
+  margin-top: -20px;
+  width: 87px;
+  z-index: -1;
+}
+
+input[type="checkbox"]:checked + .toggle { background-position: 0 -16px }
+.forgot {
+  color: #7f7f7f;
+  display: inline-block;
+  float: right;
+  font: 12px/1 sans-serif;
+  left: -19px;
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+  transition: color .4s;
+}
+
+.forgot:hover { color: #3b3b3b }
+input[type="submit"] {
+
+}
+
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+
+button, input[type="submit"] {
+  border-radius: 5px;
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  background: #f1b044;
+  border: 3px solid #f1c783;
+}
+
+button[type="submit"] {
+  background: #90d148;
+  border: 3px solid #b8e986;
+}
+
+button:disabled, input[type="submit"]:disabled {
+  background: #cccccc;
+  border: 3px solid #999999;
+}

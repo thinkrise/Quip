@@ -1,0 +1,14 @@
+<div id="register">
+  <form id="register-form" action="/register" novalidate="" method="POST" class="">
+    <input type="email" placeholder="identity" id="identity" name="identity" required="true" />
+    <input type="password" placeholder="password" id="password" name="password" required="true" />
+    <input type="password" placeholder="password" id="password2" name="password2" required="true" />
+    <button id="submit" type="submit">Register</button>
+  </form>
+  <a id="login" title="Login" href="/login">Login</a>
+</div>
+<div id="status">
+  <span id="status-text"></span>
+</div>
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="/resources/js/register.js"></script>
