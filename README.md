@@ -9,10 +9,11 @@ to provide topical subjects with which to test oneself. It allows for
 human vs human multiplayer, as well as non-player characters vs human 
 gameplay. 
 
-Intended as a test bed for developing small web-based projects at Rise, 
+Intended as a test bed for developing small web-based projects, 
 this project is open source with contributions from the community. Its 
 structure is designed to make further extension and development easier 
 with external community resources. 
 
 To read about setup, take a look at the 
 [technical documentation](./doc/setup.md "Setup"). 
+
